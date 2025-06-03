@@ -1,0 +1,66 @@
+* {
+    /* Reset */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: #A7E372;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cabecalho {
+    display: flex; /* Filhos um ao lado do outro */
+    flex-direction: column; /* Filhos em coluna */
+    gap: 18px; /* Espaçamento entre os filhos */
+    align-items: center; /* Alinhar os filhos ao centro "EIXO X" */
+}
+
+.cabecalho img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: black 3px solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+}
+
+.cabecalho h1 {
+    font-size: 20px; 
+}
+
+.cabecalho p {
+    font-size: 16px;
+}
+
+.div {
+    gap: 16px;
+}
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+}
+.btns a {
+    display: flex;
+    justify-content: center;/* ALINHAR EIXO X */
+    padding: 16px;
+    border-radius: 58px;
+    border: black 2px solid;
+    box-shadow: 5px 5px 0px;
+    width: 235px;
+    background-color: #E3D227;
+    color: black;
+    text-decoration: none;/* tirar a decoração da tag A */
+    
+}
+/* adicionar botão que muda de cor ao passar o mouse usamos o :hover */
+.btns a:hover {
+    background-color: #B2E643;
+}
